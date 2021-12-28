@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+body{
+    background: url(./mountains-2560x1440-macos-4k-5k-sierra-sky-android-wallpaper-11473-BGIMG.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 80vw;
+    height: 35vh;
+    background: inherit ;
+    filter: blur(2px);
+}
+
+#login-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 35vh;
+    left: 10vw;
+}
+
+.container-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.384);
+    margin-bottom: 2vh;
+    border-radius: 5px 5px 0px 0px ;
+    
+    
+}
+
+.container-input img{
+  width: 5vw;
+  margin: .7vh 1.5vw;
+}
+
+.container-input .manipulacao-password{
+    position: absolute;
+    right: 8vw;
+    width: 3vw;
+    cursor: pointer;
+}
+
+.container-input input::selection{
+    background: rgba(0, 0, 0, 0.219);
+}
+
+.container-input input{
+    width: 60vw;
+    height: 5vh;
+    font-size: 16px;
+    border-radius: 0px 5px 5px 0px ;
+    padding: 0 2vw;  
+}
+
+#login-container button{
+    width: 30vw;
+    height: 4vh;
+    border: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.418);
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+    #container{
+        width: 60vw;
+        height: 55vh;
+}
+    
+    #login-container{
+        width: 60vw;
+        height: 55vh;
+        left: 20vw;
+}
+
+.container-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.384);
+    height: 8vh;
+    margin-bottom: 2vh;
+    border-radius: 5px 5px 0px 0px ;
+    
+    
+}
+
+    .container-input img{
+    width: 4.5vw;
+    padding: 1vh 1vw;
+}
+    .container-input input{
+    height: 8vh;
+    font-size: 24px; 
+    width: 40vw;
+}
+
+.container-input .manipulacao-password{
+    right: 5vw;
+    width: 4.5vw;
+   
+}
+
+} 
