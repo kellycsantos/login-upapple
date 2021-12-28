@@ -7,6 +7,7 @@
     outline: none;
     border: none;
     color: rgb(29, 29, 29);
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     background: url(./mountains-2560x1440-macos-4k-5k-sierra-sky-android-wallpaper-11473-BGIMG.jpg) no-repeat center;
@@ -15,6 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 200;
 }
 
 #container{
