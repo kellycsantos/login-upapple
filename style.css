@@ -37,6 +37,11 @@ body{
     left: 10vw;
 }
 
+#login-container h1{
+    color: honeydew;
+    margin-bottom: 4vh;
+}
+
 .container-input{
     display: flex;
     align-items: center;
@@ -44,8 +49,6 @@ body{
     background: rgba(255, 255, 255, 0.384);
     margin-bottom: 2vh;
     border-radius: 5px 5px 0px 0px ;
-    
-    
 }
 
 .container-input img{
@@ -75,10 +78,11 @@ body{
 #login-container button{
     width: 30vw;
     height: 4vh;
-    border: 5px;
+    border-radius: 3px;
     font-size: 16px;
     font-weight: 600;
-    background: rgba(255, 255, 255, 0.418);
+    background: rgba(116, 115, 115, 0.418);
+    color: honeydew;
 }
 
 
